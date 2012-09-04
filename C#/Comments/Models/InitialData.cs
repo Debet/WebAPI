@@ -2,32 +2,44 @@
 {
     public class InitialData : DictionaryCommentRepository
     {
+
+        
+
         public InitialData()
         {
             Add(new Comment
             {
                 ID = 1,
-                Text = @"I sat here trying really hard to think of something profound to write for my comment but was left with nothing interesting to say other than this droning on and on that I'm doing right now. But sometimes, droning on and on serves a purpose. For example, this comment appears more realistic without resorting to Lorem Ipsum.",
-                Author = "Phil",
-                Email = "haacked@gmail.com",
+                Text = @" This WebAPI SourceCode can be Forked from the Social-site :-)",
+                Author = "Jalal",
+                Email = "Jalal.Hejazi@gmail.com",
             });
+
             Add(new Comment
             {
-                ID = 1,
+                ID = 2,
+                Text = @"One of the coolest features in Visual Studio 2012 is the ability to login using your Microsoft, Facebook, Twitter or Google account. The project templates showcase a social way of logging in along with the usual way of logging in by creating a local account",
+                Author = "Jalal",
+                Email = "Jalal.Hejazi@gmail.com",
+            });
+        
+            Add(new Comment
+            {
+                ID = 3,
                 Text = "This is the best thing I've ever seen! And trust me, I've seen a lot. A whole lot.",
                 Author = "Henrik",
                 Email = "henrikn@microsoft.com"
             });
             Add(new Comment
             {
-                ID = 2,
+                ID = 4,
                 Text = "Is this thing on? Because if it isn't on, we should really consider turning it on. Have you tried turning it on? I haven't. But you should consider it.",
                 Author = "Eilon",
                 Email = "elipton@microsoft.com"
             });
             Add(new Comment
             {
-                ID = 3,
+                ID = 5,
                 Text = "My computer's cupholder doesn't work, can you help? I tried calling tech support, but they keep laughing and I don't understand why. It's really not helpful.",
                 Author = "Glenn",
                 Email = "gblock@microsoft.com"
